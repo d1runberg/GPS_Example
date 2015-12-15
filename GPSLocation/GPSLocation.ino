@@ -1,3 +1,22 @@
+/*
+ GPS Shield Altitude Example using the EM406 GPS Unit-- Location Example Code
+ By: Derek Runberg
+ SparkFun Electronics
+ Date: December 14th, 2015
+ License: This code is public domain but you buy me a beer if you use this and we meet someday (Beerware license).
+
+Example code to use the GPS Shield paired with the EM406 GPS unit. The example code parses the current location of 
+the unit in terms of Lattitude and Longitude.
+
+
+ Hardware Hookup:
+ -GPS Shield -- Make sure all pins are aligned and inserted into the Arduino female headers
+ -EM406 GPS Unit hooked up to the GPS Shield using the shot GPS cable
+ - GPS Power switch 'ON'
+ - Serial selection set to DLINE
+ */
+
+
 #include <TinyGPS++.h>
 #include <SoftwareSerial.h>
 
